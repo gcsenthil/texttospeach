@@ -1,7 +1,7 @@
 import azure.cognitiveservices.speech as speechsdk
 
 # Set up your Azure Speech API credentials
-subscription_key = "1wloZLPX3hLZaAk9cwWhW2XVv2BVgYCJUHu0DpoGb4z6jWEW3pw4JQQJ99BBACYeBjFXJ3w3AAAYACOGpNxi"
+subscription_key = "<key>"
 region = "eastus"  # e.g., "eastus"
 
 def text_to_speech(text, output_audio_file="Intro1.wav"):
